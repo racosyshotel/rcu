@@ -193,7 +193,7 @@ u1EX u8 curtain_control;
 #ifdef __UART2_H__
 
 const u8 b_sub_device_table[][12] = {
-  {B_CHIME_IND, B_KEY_SENSOR_0, B_LIGHT_SWITCH_1, B_TEMP_SENSOR_1,0xff,0xff,0xff}, //RCB - 1 (CB_MODE 0) 
+  {B_CHIME_IND, B_KEY_SENSOR_0, B_LIGHT_SWITCH_1,B_EXREALY, B_TEMP_SENSOR_1,0xff,0xff,0xff}, //RCB - 1 (CB_MODE 0) 
   {B_CHIME_IND, B_KEY_SENSOR_0, B_LIGHT_SWITCH_1, B_LIGHT_SWITCH_2, B_TEMP_SENSOR_1, B_TEMP_SENSOR_2,0xff,0xff,0xff}, //RCB - 1 (CB_MODE 0) 
 };
 
