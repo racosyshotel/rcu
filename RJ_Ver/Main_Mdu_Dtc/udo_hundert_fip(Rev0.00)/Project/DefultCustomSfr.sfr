@@ -1,0 +1,52 @@
+[Sfr]
+sfr = "SYSTICKRVR",	"Memory",	0xe000e014,	4,	base=16,	modified
+sfr = "SYSTICKCVR",	"Memory",	0xe000e018,	4,	base=16,	modified
+sfr = "SYSTICKCALVR",	"Memory",	0xe000e01c,	4,	base=16,	modified
+sfr = "SETENA0",	"Memory",	0xe000e100,	4,	base=16,	modified
+sfr = "SETENA1",	"Memory",	0xe000e104,	4,	base=16,	modified
+sfr = "SETENA2",	"Memory",	0xe000e108,	4,	base=16,	modified
+sfr = "CLRENA0",	"Memory",	0xe000e180,	4,	base=16,	modified
+sfr = "CLRENA1",	"Memory",	0xe000e184,	4,	base=16,	modified
+sfr = "CLRENA2",	"Memory",	0xe000e188,	4,	base=16,	modified
+sfr = "SETPEND0",	"Memory",	0xe000e200,	4,	base=16,	modified
+sfr = "IP6",	"Memory",	0xe000e418,	4,	base=16,	modified
+sfr = "IP8",	"Memory",	0xe000e420,	4,	base=16,	modified
+sfr = "IP9",	"Memory",	0xe000e424,	4,	base=16,	modified
+sfr = "IP10",	"Memory",	0xe000e428,	4,	base=16,	modified
+sfr = "IP12",	"Memory",	0xe000e430,	4,	base=16,	modified
+sfr = "IP14",	"Memory",	0xe000e438,	4,	base=16,	modified
+sfr = "IP15",	"Memory",	0xe000e43c,	4,	base=16,	modified
+sfr = "CFSR",	"Memory",	0xe000ed28,	4,	base=16,	modified
+sfr = "BFAR",	"Memory",	0xe000ed38,	4,	base=16,	modified
+sfr = "DBGMCU_APB2_FZ",	"Memory",	0xe004200c,	4,	base=16,	modified
+sfr = "PWR_CR",	"Memory",	0x40007000,	4,	base=16,	modified
+sfr = "PWR_CSR",	"Memory",	0x40007004,	4,	base=16,	modified
+sfr = "RCC_CR",	"Memory",	0x40023800,	4,	base=16,	modified
+sfr = "RCC_PLLCFGR",	"Memory",	0x40023804,	4,	base=16,	modified
+sfr = "RCC_CFGR",	"Memory",	0x40023808,	4,	base=16,	modified
+sfr = "RCC_CIR",	"Memory",	0x4002380c,	4,	base=16,	modified
+sfr = "RCC_AHB1RSTR",	"Memory",	0x40023810,	4,	base=16,	modified
+sfr = "RCC_AHB2RSTR",	"Memory",	0x40023814,	4,	base=16,	modified
+sfr = "RCC_AHB3RSTR",	"Memory",	0x40023818,	4,	base=16,	modified
+sfr = "RCC_APB1RSTR",	"Memory",	0x40023820,	4,	base=16,	modified
+sfr = "GPIOE_LCKR",	"Memory",	0x4002101c,	4,	base=16,	modified
+sfr = "SYSCFG_PMC",	"Memory",	0x40013804,	4,	base=16,	modified
+sfr = "DMA1_HISR",	"Memory",	0x40026004,	4,	base=16,	modified
+sfr = "DMA1_S1CR",	"Memory",	0x40026028,	4,	base=16,	modified
+sfr = "TIM12_CNT",	"Memory",	0x40001824,	4,	base=16,	modified
+sfr = "TIM12_CCR2",	"Memory",	0x40001838,	4,	base=16,	modified
+sfr = "TIM10_CR1",	"Memory",	0x40014400,	4,	base=16,	modified
+sfr = "I2C2_CR2",	"Memory",	0x40005804,	4,	base=16,	modified
+sfr = "I2C2_OAR1",	"Memory",	0x40005808,	4,	base=16,	modified
+sfr = "I2C2_OAR2",	"Memory",	0x4000580c,	4,	base=16,	modified
+sfr = "I2C2_DR",	"Memory",	0x40005810,	4,	base=16,	modified
+
+
+[SfrGroupInfo]
+group = "Custom", "SYSTICKRVR", "SYSTICKCVR", "SYSTICKCALVR", "SETENA0", "SETENA1", "SETENA2"
+group = "Custom", "CLRENA0", "CLRENA1", "CLRENA2", "SETPEND0"
+group = "Custom", "IP6", "IP8", "IP9", "IP10"
+group = "Custom", "IP12", "IP14", "IP15", "CFSR", "BFAR", "DBGMCU_APB2_FZ"
+group = "Custom", "PWR_CR", "PWR_CSR", "RCC_CR", "RCC_PLLCFGR", "RCC_CFGR", "RCC_CIR"
+group = "Custom", "RCC_AHB1RSTR", "RCC_AHB2RSTR", "RCC_AHB3RSTR", "RCC_APB1RSTR"
+group = "Custom", "GPIOE_LCKR", "SYSCFG_PMC", "DMA1_HISR", "DMA1_S1CR", "TIM12_CNT", "TIM12_CCR2", "TIM10_CR1", "I2C2_CR2", "I2C2_OAR1", "I2C2_OAR2", "I2C2_DR"

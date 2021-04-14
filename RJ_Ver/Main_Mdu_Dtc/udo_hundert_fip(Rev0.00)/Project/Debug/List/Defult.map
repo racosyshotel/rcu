@@ -1,0 +1,538 @@
+###############################################################################
+#
+# IAR ELF Linker V7.10.3.6832/W32 for ARM                 14/Apr/2021  09:49:10
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Exe\Defult.out
+#    Map file     =  
+#        C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\List\Defult.map
+#    Command line =  
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\ComTask.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\iexec.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\main.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\misc.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\startup_stm32f2xx.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_adc.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_can.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_crc.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_cryp.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_dac.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_dbgmcu.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_dcmi.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_dma.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_exti.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_flash.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_fsmc.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_gpio.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_hash.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_i2c.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_init.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_it.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_iwdg.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_pwr.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_rcc.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_rng.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_rtc.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_sdio.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_spi.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_syscfg.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_tim.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_usart.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\stm32f2xx_wwdg.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\system_stm32f2xx.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\uart1.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\uart2.o"
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj\uart3.o"
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Exe\Defult.out"
+#        --map
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\List\Defult.map"
+#        --config
+#        "C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\stm32f2xx_flash.icf"
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0807ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2001ffff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                      0x184
+  .intvec            ro code  0x08000000   0x184  startup_stm32f2xx.o [1]
+                            - 0x08000184   0x184
+
+"P1":                                     0xaee0
+  .rodata            const    0x08000184  0x3000  uart3.o [1]
+  .text              ro code  0x08003184  0x22b8  uart3.o [1]
+  .text              ro code  0x0800543c   0x1d2  stm32f2xx_usart.o [1]
+  .text              ro code  0x0800560e    0x2e  copy_init3.o [4]
+  .text              ro code  0x0800563c   0x114  stm32f2xx_gpio.o [1]
+  .text              ro code  0x08005750    0x32  stm32f2xx_rtc.o [1]
+  .text              ro code  0x08005782    0x22  zero_init3.o [4]
+  .text              ro code  0x080057a4   0x140  stm32f2xx_rcc.o [1]
+  .text              ro code  0x080058e4    0x98  misc.o [1]
+  .rodata            const    0x0800597c  0x2000  uart2.o [1]
+  .text              ro code  0x0800797c  0x1d54  uart2.o [1]
+  .text              ro code  0x080096d0  0x101c  stm32f2xx_init.o [1]
+  .text              ro code  0x0800a6ec    0xf2  stm32f2xx_tim.o [1]
+  .rodata            const    0x0800a7de     0x2  uart2.o [1]
+  .text              ro code  0x0800a7e0    0x38  stm32f2xx_iwdg.o [1]
+  .text              ro code  0x0800a818   0x2d0  stm32f2xx_it.o [1]
+  .text              ro code  0x0800aae8     0xc  memcpy.o [3]
+  .text              ro code  0x0800aaf4    0x76  ABImemcpy_unaligned.o [4]
+  .text              ro code  0x0800ab6c   0x124  system_stm32f2xx.o [1]
+  .rodata            const    0x0800ac90    0xa0  uart2.o [1]
+  .text              ro code  0x0800ad30    0x48  ComTask.o [1]
+  .text              ro code  0x0800ad78    0x44  iexec.o [1]
+  .text              ro code  0x0800adbc    0x28  data_init.o [4]
+  .iar.init_table    const    0x0800ade4    0x24  - Linker created -
+  .rodata            const    0x0800ae08    0x20  uart2.o [1]
+  .rodata            const    0x0800ae28    0x20  uart2.o [1]
+  .rodata            const    0x0800ae48    0x20  uart2.o [1]
+  .rodata            const    0x0800ae68    0x20  uart2.o [1]
+  .rodata            const    0x0800ae88    0x20  uart2.o [1]
+  .text              ro code  0x0800aea8    0x1a  cmain.o [4]
+  .text              ro code  0x0800aec2     0x4  low_level_init.o [3]
+  .text              ro code  0x0800aec6     0xc  main.o [1]
+  .text              ro code  0x0800aed2     0x4  exit.o [3]
+  .text              ro code  0x0800aed8     0xa  cexit.o [4]
+  .text              ro code  0x0800aee4    0x14  exit.o [5]
+  .text              ro code  0x0800aef8    0x10  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af08     0xc  cstartup_M.o [4]
+  .text              ro code  0x0800af14     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af18     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af1c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af20     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af24     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af28     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af2c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af30     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af34     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af38     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af3c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af40     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af44     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af48     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af4c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af50     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af54     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af58     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af5c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af60     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af64     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af68     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af6c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af70     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af74     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af78     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af7c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af80     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af84     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af88     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af8c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af90     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af94     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af98     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800af9c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800afa0     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800afa4     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800afa8     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800afac     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800afb0     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800afb4     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800afb8     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800afbc     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800afc0     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800afc4     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800afc8     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800afcc     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800afd0     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800afd4     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800afd8     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800afdc     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800afe0     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800afe4     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800afe8     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800afec     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800aff0     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800aff4     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800aff8     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800affc     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800b000     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800b004     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800b008     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800b00c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800b010     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800b014     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800b018     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800b01c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800b020     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800b024     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800b028     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800b02c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800b030     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800b034     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800b038     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800b03c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800b040     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800b044     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800b048     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x0800b04c     0x4  startup_stm32f2xx.o [1]
+  .rodata            const    0x0800b050     0x0  zero_init3.o [4]
+  .rodata            const    0x0800b050     0x0  copy_init3.o [4]
+  Initializer bytes  ro data  0x0800b050    0x14  <for P2 s0>
+                            - 0x0800b064  0xaee0
+
+"P2", part 1 of 3:                          0x14
+  P2 s0                       0x20000000    0x14  <Init block>
+    .data            inited   0x20000000    0x10  stm32f2xx_rcc.o [1]
+    .data            inited   0x20000010     0x1  iexec.o [1]
+                            - 0x20000014    0x14
+
+"P2", part 2 of 3:                        0x2d24
+  .bss               zero     0x20000014  0x1900  uart3.o [1]
+  .bss               zero     0x20001914   0xc80  uart2.o [1]
+  .bss               zero     0x20002594   0x1f4  uart2.o [1]
+  .bss               zero     0x20002788   0x100  stm32f2xx_init.o [1]
+  .bss               zero     0x20002888    0xc8  uart2.o [1]
+  .bss               zero     0x20002950    0x64  uart2.o [1]
+  .bss               zero     0x200029b4    0x64  uart2.o [1]
+  .bss               zero     0x20002a18    0x64  uart2.o [1]
+  .bss               zero     0x20002a7c    0x64  uart3.o [1]
+  .bss               zero     0x20002ae0    0x64  uart3.o [1]
+  .bss               zero     0x20002b44    0x64  uart3.o [1]
+  .bss               zero     0x20002ba8    0x64  uart3.o [1]
+  .bss               zero     0x20002c0c    0x48  uart1.o [1]
+  .bss               zero     0x20002c54    0x34  uart2.o [1]
+  .bss               zero     0x20002c88    0x28  uart2.o [1]
+  .bss               zero     0x20002cb0    0x20  stm32f2xx_init.o [1]
+  .bss               zero     0x20002cd0    0x20  stm32f2xx_init.o [1]
+  .bss               zero     0x20002cf0     0xc  stm32f2xx_init.o [1]
+  .bss               zero     0x20002cfc     0x4  stm32f2xx_init.o [1]
+  .bss               zero     0x20002d00     0x4  stm32f2xx_init.o [1]
+  .bss               zero     0x20002d04     0x4  stm32f2xx_init.o [1]
+  .bss               zero     0x20002d08     0x4  stm32f2xx_init.o [1]
+  .bss               zero     0x20002d0c     0x4  uart2.o [1]
+  .bss               zero     0x20002d10     0x4  uart3.o [1]
+  .bss               zero     0x20002d14     0x2  stm32f2xx_init.o [1]
+  .bss               zero     0x20002d16     0x2  stm32f2xx_init.o [1]
+  .bss               zero     0x20002d18     0x2  stm32f2xx_init.o [1]
+  .bss               zero     0x20002d1a     0x1  ComTask.o [1]
+  .bss               zero     0x20002d1b     0x1  stm32f2xx_init.o [1]
+  .bss               zero     0x20002d1c     0x1  stm32f2xx_init.o [1]
+  .bss               zero     0x20002d1d     0x1  stm32f2xx_init.o [1]
+  .bss               zero     0x20002d1e     0x1  stm32f2xx_init.o [1]
+  .bss               zero     0x20002d1f     0x1  stm32f2xx_init.o [1]
+  .bss               zero     0x20002d20     0x1  stm32f2xx_init.o [1]
+  .bss               zero     0x20002d21     0x1  stm32f2xx_init.o [1]
+  .bss               zero     0x20002d22     0x1  uart1.o [1]
+  .bss               zero     0x20002d23     0x1  uart2.o [1]
+  .bss               zero     0x20002d24     0x1  uart2.o [1]
+  .bss               zero     0x20002d25     0x1  uart2.o [1]
+  .bss               zero     0x20002d26     0x1  uart2.o [1]
+  .bss               zero     0x20002d27     0x1  uart2.o [1]
+  .bss               zero     0x20002d28     0x1  uart2.o [1]
+  .bss               zero     0x20002d29     0x1  uart2.o [1]
+  .bss               zero     0x20002d2a     0x1  uart3.o [1]
+  .bss               zero     0x20002d2b     0x1  uart3.o [1]
+  .bss               zero     0x20002d2c     0x1  uart3.o [1]
+  .bss               zero     0x20002d2d     0x1  uart3.o [1]
+  .bss               zero     0x20002d2e     0x1  uart3.o [1]
+  .bss               zero     0x20002d2f     0x1  uart3.o [1]
+  .bss               zero     0x20002d30     0x1  uart3.o [1]
+  .bss               zero     0x20002d31     0x1  uart3.o [1]
+  .bss               zero     0x20002d32     0x1  uart3.o [1]
+  .bss               zero     0x20002d33     0x1  uart3.o [1]
+  .bss               zero     0x20002d34     0x1  uart3.o [1]
+                            - 0x20002d35  0x2d21
+
+"P2", part 3 of 3:                        0x2000
+  CSTACK                      0x20002d38  0x2000  <Block>
+    CSTACK           uninit   0x20002d38  0x2000  <Block tail>
+                            - 0x20004d38  0x2000
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x2d21:
+          0x20000014  0x2d21
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x14 (117% of destination):
+          0x0800b050    0x14
+    1 destination range, total size 0x11:
+          0x20000000    0x11
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj: [1]
+    ComTask.o                   72                 1
+    iexec.o                     68        1        1
+    main.o                      12
+    misc.o                     152
+    startup_stm32f2xx.o        720
+    stm32f2xx_gpio.o           276
+    stm32f2xx_init.o         4 124               361
+    stm32f2xx_it.o             720
+    stm32f2xx_iwdg.o            56
+    stm32f2xx_rcc.o            320       16       16
+    stm32f2xx_rtc.o             50
+    stm32f2xx_tim.o            242
+    stm32f2xx_usart.o          466
+    system_stm32f2xx.o         292
+    uart1.o                                       73
+    uart2.o                  7 508    8 514    4 303
+    uart3.o                  8 888   12 288    6 815
+    ------------------------------------------------
+    Total:                  23 966   20 819   11 570
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    exit.o                       4
+    low_level_init.o             4
+    memcpy.o                    12
+    ------------------------------------------------
+    Total:                      20
+
+rt7M_tl.a: [4]
+    ABImemcpy_unaligned.o      118
+    cexit.o                     10
+    cmain.o                     26
+    copy_init3.o                46
+    cstartup_M.o                12
+    data_init.o                 40
+    zero_init3.o                34
+    ------------------------------------------------
+    Total:                     286
+
+shb_l.a: [5]
+    exit.o                      20
+    ------------------------------------------------
+    Total:                      20
+
+    Gaps                         6
+    Linker created                       39    8 192
+----------------------------------------------------
+    Grand Total:            24 298   20 858   19 762
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+?main                   0x0800aea9          Code  Gb  cmain.o [4]
+APBAHBPrescTable        0x20000000    0x10  Data  Lc  stm32f2xx_rcc.o [1]
+BusFault_Handler        0x0800a81f     0x2  Code  Gb  stm32f2xx_it.o [1]
+CSTACK$$Base            0x20002d38           --   Gb  - Linker created -
+CSTACK$$Limit           0x20004d38           --   Gb  - Linker created -
+Clrbit                  0x0800a039    0x10  Code  Gb  stm32f2xx_init.o [1]
+Common_Task             0x0800ad31    0x48  Code  Gb  ComTask.o [1]
+DebugMon_Handler        0x0800a825     0x2  Code  Gb  stm32f2xx_it.o [1]
+GPIO_Init               0x0800563d    0xa6  Code  Gb  stm32f2xx_gpio.o [1]
+GPIO_PinAFConfig        0x080056ff    0x52  Code  Gb  stm32f2xx_gpio.o [1]
+GPIO_ReadInputDataBit   0x080056e3    0x16  Code  Gb  stm32f2xx_gpio.o [1]
+GPIO_Write              0x080056f9     0x6  Code  Gb  stm32f2xx_gpio.o [1]
+GPIO_port_initial       0x0800a073   0x20e  Code  Gb  stm32f2xx_init.o [1]
+Gp_initial              0x0800a049    0x2a  Code  Gb  stm32f2xx_init.o [1]
+HardFault_Handler       0x0800a81b     0x2  Code  Gb  stm32f2xx_it.o [1]
+IWDG_Enable             0x0800a803     0xa  Code  Gb  stm32f2xx_iwdg.o [1]
+IWDG_ReloadCounter      0x0800a7f9     0xa  Code  Gb  stm32f2xx_iwdg.o [1]
+IWDG_SetPrescaler       0x0800a7e9     0x8  Code  Gb  stm32f2xx_iwdg.o [1]
+IWDG_SetReload          0x0800a7f1     0x8  Code  Gb  stm32f2xx_iwdg.o [1]
+IWDG_WriteAccessCmd     0x0800a7e1     0x8  Code  Gb  stm32f2xx_iwdg.o [1]
+Internal_timer_Proc     0x080096d1   0x380  Code  Gb  stm32f2xx_init.o [1]
+Iwdog_initial           0x0800a315    0x24  Code  Gb  stm32f2xx_init.o [1]
+MemManage_Handler       0x0800a81d     0x2  Code  Gb  stm32f2xx_it.o [1]
+NMI_Handler             0x0800a819     0x2  Code  Gb  stm32f2xx_it.o [1]
+NVIC_Init               0x080058ef    0x64  Code  Gb  misc.o [1]
+NVIC_InitStructure      0x20002cfc     0x4  Data  Gb  stm32f2xx_init.o [1]
+NVIC_PriorityGroupConfig
+                        0x080058e5     0xa  Code  Gb  misc.o [1]
+NVIC_SetVectorTable     0x08005953     0xc  Code  Gb  misc.o [1]
+NVIC_initial            0x0800a339    0x34  Code  Gb  stm32f2xx_init.o [1]
+RCC_AHB1PeriphClockCmd  0x08005887    0x20  Code  Gb  stm32f2xx_rcc.o [1]
+RCC_APB1PeriphClockCmd  0x080058a7    0x20  Code  Gb  stm32f2xx_rcc.o [1]
+RCC_GetClocksFreq       0x080057a5    0xe2  Code  Gb  stm32f2xx_rcc.o [1]
+Read_BKPSRAM            0x0800576b    0x18  Code  Gb  stm32f2xx_rtc.o [1]
+Region$$Table$$Base     0x0800ade4           --   Gb  - Linker created -
+Region$$Table$$Limit    0x0800ae08           --   Gb  - Linker created -
+SVC_Handler             0x0800a823     0x2  Code  Gb  stm32f2xx_it.o [1]
+SetSysClock             0x0800abb3    0xb6  Code  Lc  system_stm32f2xx.o [1]
+Stm32f2xx_initial       0x0800a36d   0x2fc  Code  Gb  stm32f2xx_init.o [1]
+SystemInit              0x0800ab6d    0x46  Code  Gb  system_stm32f2xx.o [1]
+TIM2_IRQHandler         0x0800aa61    0x3a  Code  Gb  stm32f2xx_it.o [1]
+TIME2_initial           0x0800a281    0x6c  Code  Gb  stm32f2xx_init.o [1]
+TIM_ClearITPendingBit   0x0800a7d7     0x8  Code  Gb  stm32f2xx_tim.o [1]
+TIM_Cmd                 0x0800a757    0x1c  Code  Gb  stm32f2xx_tim.o [1]
+TIM_GetITStatus         0x0800a7a9    0x2e  Code  Gb  stm32f2xx_tim.o [1]
+TIM_ITConfig            0x0800a791    0x18  Code  Gb  stm32f2xx_tim.o [1]
+TIM_TimeBaseInit        0x0800a6ed    0x6a  Code  Gb  stm32f2xx_tim.o [1]
+TimerSetup              0x0800a01f    0x1a  Code  Gb  stm32f2xx_init.o [1]
+UART2_initial           0x080095bb    0xc2  Code  Gb  uart2.o [1]
+UART2_rxd_check         0x08007f47   0x14a  Code  Gb  uart2.o [1]
+UART2_tx_check          0x08007ed7    0x70  Code  Gb  uart2.o [1]
+UART3_initial           0x08005321    0xc6  Code  Gb  uart3.o [1]
+UART3_rxd_check         0x080046d7   0x686  Code  Gb  uart3.o [1]
+UART3_tx_check          0x08004651    0x86  Code  Gb  uart3.o [1]
+USART1_IRQHandler       0x0800a827    0x40  Code  Gb  stm32f2xx_it.o [1]
+USART2_IRQHandler       0x0800a867    0xf0  Code  Gb  stm32f2xx_it.o [1]
+USART3_IRQHandler       0x0800a957   0x10a  Code  Gb  stm32f2xx_it.o [1]
+USART_ClearITPendingBit
+                        0x080055ed    0x22  Code  Gb  stm32f2xx_usart.o [1]
+USART_Cmd               0x08005501    0x1c  Code  Gb  stm32f2xx_usart.o [1]
+USART_GetFlagStatus     0x0800556f    0x1a  Code  Gb  stm32f2xx_usart.o [1]
+USART_GetITStatus       0x08005589    0x64  Code  Gb  stm32f2xx_usart.o [1]
+USART_ITConfig          0x0800551d    0x52  Code  Gb  stm32f2xx_usart.o [1]
+USART_Init              0x0800543d    0xb6  Code  Gb  stm32f2xx_usart.o [1]
+UsageFault_Handler      0x0800a821     0x2  Code  Gb  stm32f2xx_it.o [1]
+Wdtcnt                  0x20002d14     0x2  Data  Gb  stm32f2xx_init.o [1]
+Write_BKPSRAM           0x08005751    0x1a  Code  Gb  stm32f2xx_rtc.o [1]
+__cmain                 0x0800aea9          Code  Gb  cmain.o [4]
+__exit                  0x0800aee5    0x14  Code  Gb  exit.o [5]
+__iar_copy_init3        0x0800560f    0x2e  Code  Gb  copy_init3.o [4]
+__iar_data_init3        0x0800adbd    0x28  Code  Gb  data_init.o [4]
+__iar_program_start     0x0800af09          Code  Gb  cstartup_M.o [4]
+__iar_unaligned___aeabi_memcpy
+                        0x0800aaf5          Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned___aeabi_memcpy4
+                        0x0800ab15          Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned___aeabi_memcpy8
+                        0x0800ab15          Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_zero_init3        0x08005783    0x22  Code  Gb  zero_init3.o [4]
+__low_level_init        0x0800aec3     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000          Data  Gb  startup_stm32f2xx.o [1]
+_call_main              0x0800aeb5          Code  Gb  cmain.o [4]
+_exit                   0x0800aed9          Code  Gb  cexit.o [4]
+_main                   0x0800aebf          Code  Gb  cmain.o [4]
+b_cb_send_id_table      0x0800597c  0x2000  Data  Gb  uart2.o [1]
+b_decimal_to_hex_table  0x0800ac90    0xa0  Data  Gb  uart2.o [1]
+b_max_cb_count          0x0800a7de     0x2  Data  Gb  uart2.o [1]
+b_room_led_position_table
+                        0x08000184  0x3000  Data  Gb  uart3.o [1]
+basic_data_execution    0x08004d5d   0x136  Code  Gb  uart3.o [1]
+bojung_flag             0x20002d29     0x1  Data  Gb  uart2.o [1]
+cb_command_send         0x080035ed  0x100e  Code  Gb  uart3.o [1]
+cb_first_check_point    0x20002d2f     0x1  Data  Gb  uart3.o [1]
+cb_first_save_buffer    0x20002888    0xc8  Data  Gb  uart2.o [1]
+cb_first_save_point     0x20002d27     0x1  Data  Gb  uart2.o [1]
+cb_first_send_check     0x08004601    0x40  Code  Gb  uart3.o [1]
+cb_first_send_save      0x080094df    0x2e  Code  Gb  uart2.o [1]
+cb_max_count            0x20002c88    0x28  Data  Gb  uart2.o [1]
+cb_null_send            0x08003309   0x12a  Code  Gb  uart3.o [1]
+cb_rx_room_data_buf     0x20000014  0x1900  Data  Gb  uart3.o [1]
+cb_send_data_buf        0x20001914   0xc80  Data  Gb  uart2.o [1]
+cb_send_id              0x20002d26     0x1  Data  Gb  uart2.o [1]
+cb_suncha_send          0x08003433   0x174  Code  Gb  uart3.o [1]
+clean_order_time_check  0x08009511    0xaa  Code  Gb  uart2.o [1]
+command_check           0x080080b5   0x848  Code  Gb  uart2.o [1]
+common_command_check    0x0800893d   0xba2  Code  Gb  uart2.o [1]
+common_data_buf         0x20002c54    0x34  Data  Gb  uart2.o [1]
+common_send_count       0x20002d33     0x1  Data  Gb  uart3.o [1]
+dip_function            0x20002d1f     0x1  Data  Gb  stm32f2xx_init.o [1]
+dip_function_2          0x20002d20     0x1  Data  Gb  stm32f2xx_init.o [1]
+dip_switch_buf_2        0x20002d1e     0x1  Data  Gb  stm32f2xx_init.o [1]
+dip_switch_read         0x08009e57   0x1c8  Code  Gb  stm32f2xx_init.o [1]
+dong_code               0x20002d21     0x1  Data  Gb  stm32f2xx_init.o [1]
+esctc                   0x20002d22     0x1  Data  Gb  uart1.o [1]
+exit                    0x0800aed3     0x4  Code  Gb  exit.o [3]
+extm                    0x20002cf0     0xc  Data  Gb  stm32f2xx_init.o [1]
+fip_led_drive           0x08009a51   0x386  Code  Gb  stm32f2xx_init.o [1]
+fip_led_move            0x08009dd7    0x80  Code  Gb  stm32f2xx_init.o [1]
+group_data_buf          0x20002594   0x1f4  Data  Gb  uart2.o [1]
+hextbl1                 0x0800ae28    0x20  Data  Gb  uart2.o [1]
+hextbl10                0x0800ae48    0x20  Data  Gb  uart2.o [1]
+hextbl100               0x0800ae68    0x20  Data  Gb  uart2.o [1]
+hextbl1000              0x0800ae88    0x20  Data  Gb  uart2.o [1]
+iexec_control_proc      0x0800ad79    0x44  Code  Gb  iexec.o [1]
+iexecctrl               0x20000010     0x1  Data  Gb  iexec.o [1]
+led_kind_buf            0x20002788   0x100  Data  Gb  stm32f2xx_init.o [1]
+led_scan_count          0x20002d1b     0x1  Data  Gb  stm32f2xx_init.o [1]
+led_scan_time           0x20002d1c     0x1  Data  Gb  stm32f2xx_init.o [1]
+led_setup               0x08004ed1   0x448  Code  Gb  uart3.o [1]
+led_shift_buf           0x20002d1d     0x1  Data  Gb  stm32f2xx_init.o [1]
+led_y_buf               0x20002cd0    0x20  Data  Gb  stm32f2xx_init.o [1]
+main                    0x0800aec7     0xc  Code  Gb  main.o [1]
+memcpy                  0x0800aae9     0xc  Code  Gb  memcpy.o [3]
+my_device_id_check      0x0800ae08    0x20  Data  Gb  uart2.o [1]
+my_device_no            0x20002d28     0x1  Data  Gb  uart2.o [1]
+priority_pc_send        0x08004e93    0x2a  Code  Gb  uart3.o [1]
+priority_pc_send_buffer
+                        0x20002ba8    0x64  Data  Gb  uart3.o [1]
+priority_pc_send_check  0x08007e99    0x3e  Code  Gb  uart2.o [1]
+priority_pc_send_check_point
+                        0x20002d31     0x1  Data  Gb  uart3.o [1]
+priority_pc_send_save_point
+                        0x20002d30     0x1  Data  Gb  uart3.o [1]
+ring                    0x20002c0c    0x48  Data  Gb  uart1.o [1]
+stm32_init              0x20002d08     0x4  Data  Gb  stm32f2xx_init.o [1]
+sub_call_id             0x20002d2c     0x1  Data  Gb  uart3.o [1]
+timer_buf               0x20002cb0    0x20  Data  Gb  stm32f2xx_init.o [1]
+tm                      0x20002d00     0x4  Data  Gb  stm32f2xx_init.o [1]
+tx_delay_timer          0x20002d34     0x1  Data  Gb  uart3.o [1]
+tx_send_id_back         0x20002d32     0x1  Data  Gb  uart3.o [1]
+uart2_data_send         0x08007989   0x510  Code  Gb  uart2.o [1]
+uart2_flag              0x20002d0c     0x4  Data  Gb  uart2.o [1]
+uart2_frame_proc        0x0800797d     0xc  Code  Gb  uart2.o [1]
+uart2_rxd_buf           0x20002a18    0x64  Data  Gb  uart2.o [1]
+uart2_rxding_buf        0x200029b4    0x64  Data  Gb  uart2.o [1]
+uart2_rxding_point      0x20002d25     0x1  Data  Gb  uart2.o [1]
+uart2_tx_backup         0x20002d24     0x1  Data  Gb  uart2.o [1]
+uart2_tx_data_buf       0x20002950    0x64  Data  Gb  uart2.o [1]
+uart2_tx_length         0x20002d23     0x1  Data  Gb  uart2.o [1]
+uart3_call_timer        0x20002d16     0x2  Data  Gb  stm32f2xx_init.o [1]
+uart3_flag              0x20002d10     0x4  Data  Gb  uart3.o [1]
+uart3_frame_proc        0x08003185   0x184  Code  Gb  uart3.o [1]
+uart3_rx_length         0x20002d2e     0x1  Data  Gb  uart3.o [1]
+uart3_rxd_buf           0x20002b44    0x64  Data  Gb  uart3.o [1]
+uart3_rxding_buf        0x20002ae0    0x64  Data  Gb  uart3.o [1]
+uart3_rxding_point      0x20002d2d     0x1  Data  Gb  uart3.o [1]
+uart3_tx_backup         0x20002d2b     0x1  Data  Gb  uart3.o [1]
+uart3_tx_data_buf       0x20002a7c    0x64  Data  Gb  uart3.o [1]
+uart3_tx_length         0x20002d2a     0x1  Data  Gb  uart3.o [1]
+utaskctrl               0x20002d1a     0x1  Data  Gb  ComTask.o [1]
+watchdog                0x20002d04     0x4  Data  Gb  stm32f2xx_init.o [1]
+
+
+[1] = C:\Users\swjang\Desktop\Project\8_island\udo_hundert_201204_molex(Euro)\RJ_Ver\Main_Mdu_Dtc\udo_hundert_fip(Rev0.00)\Project\Debug\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  24 298 bytes of readonly  code memory
+  20 858 bytes of readonly  data memory
+  19 762 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

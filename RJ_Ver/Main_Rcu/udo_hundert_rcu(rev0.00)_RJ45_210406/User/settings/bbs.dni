@@ -1,0 +1,165 @@
+[DebugChecksum]
+Checksum=541219754
+[InstructionProfiling]
+Enabled=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[Profiling]
+Enabled=0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[Breakpoints]
+Count=0
+[TraceHelper]
+Enabled=0
+ShowSource=1
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=36
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[JLinkDriver]
+CStepIntDis=_ 0
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Interrupts]
+Enabled=1
+[MemConfig]
+Base=1
+Manual=0
+Ddf=1
+TypeViol=0
+Stop=1
+[Simulator]
+Freq=10000000
+MultiCoreRunAll=1
+[watch_formats]
+Fmt0={W}0:uart1_rxd_buf	0	2
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[PowerLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=0
+Title_0=I0
+Symbol_0=0 4 1
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[EventLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=1
+[Breakpoints2]
+Count=0
+[Aliases]
+A0=_ "C:\Users\Kimkyungnam\Desktop\jensi\SAMPLE_BOX_0410_AL800\SAMPLE_BOX_20190410\SAMPLE_BOX_RCU_20190412\User\app\main.c" ""
+A1=_ "C:\Users\Kimkyungnam\Desktop\jensi\jungsen_ramada\User\app\main.c" ""
+A2=_ "C:\Users\Leejungmin\Desktop\racos system porject\project_room\RCS\busan\busan_versache_hotel_20191101\busan_bersache_RCU(Rev0.03)_20191210\User\cortexm3_macro.s" ""
+A3=_ "C:\Users\Leejungmin\Desktop\racos system porject\project_room\hitech_sample\SAMPLE_BOX_0415_lastversion\SAMPLE_BOX_RCU_20190412(A800,AL800)\User\cortexm3_macro.s" ""
+A4=_ "C:\Users\hhhwang\Desktop\객실관리시스템\STR32F_CB\RCU\User\cortexm3_macro.s" ""
+A5=_ "C:\Users\swjang\Desktop\Project\0_sub_device_status_add(20.08.25ing)\RCU_STATUS_PROTOCOL(Rev0.1)\User\app\main.c" ""
+A6=_ "D:\My_works\BeElec\f10_BE Billing System\mbs1000_app_a320\User\main.c" ""
+A7=_ "D:\Plus_H_working\HOTEL_Project\K_Hotel\RCU\User\cortexm3_macro.s" ""
+A8=_ "D:\Plus_H_working\HOTEL_Project\K_Hotel\RCU\module\stm32f10x_gpio.c" ""
+A9=_ "D:\Plus_H_working\HOTEL_Project\K_Hotel\RCU\module\stm32f10x_usart.c" ""
+A10=_ "D:\Plus_H_working\RACOS\STR32F_CB\RCU\User\app\main.c" ""
+A11=_ "D:\Plus_H_working\RACOS\STR32F_CB\RCU\module\stm32f10x_gpio.c" ""
+A12=_ "D:\Plus_H_working\RACOS\STR32F_CB\RCU\module\stm32f10x_i2c.c" ""
+A13=_ "D:\Plus_H_working\RACOS\STR32F_CB\RCU\module\stm32f10x_rcc.c" ""
+A14=_ "D:\Plus_H_working\RACOS\STR32F_CB\RCU\module\stm32f10x_tim.c" ""
+A15=_ "D:\Plus_H_working\RACOS\STR32F_CB\RCU\module\stm32f10x_usart.c" ""
+Count=16
+SuppressDialog=1

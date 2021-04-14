@@ -1,0 +1,25 @@
+[Sfr]
+sfr = "SYSTICKRVR",	"Memory",	0xe000e014,	4,	base=16,	modified
+sfr = "SYSTICKCALVR",	"Memory",	0xe000e01c,	4,	base=16,	modified
+sfr = "CLRENA2",	"Memory",	0xe000e188,	4,	base=16,	modified
+sfr = "GPIOA_AFRH",	"Memory",	0x40020024,	4,	base=16,	modified
+sfr = "GPIOB_MODER",	"Memory",	0x40020400,	4,	base=16,	modified
+sfr = "GPIOB_OTYPER",	"Memory",	0x40020404,	4,	base=16,	modified
+sfr = "GPIOB_PUPDR",	"Memory",	0x4002040c,	4,	base=16,	modified
+sfr = "GPIOB_LCKR",	"Memory",	0x4002041c,	4,	base=16,	modified
+sfr = "GPIOD_PUPDR",	"Memory",	0x40020c0c,	4,	base=16,	modified
+sfr = "GPIOD_AFRH",	"Memory",	0x40020c24,	4,	base=16,	modified
+sfr = "GPIOE_ODR",	"Memory",	0x40021014,	4,	base=16,	modified
+sfr = "DMA1_S1CR",	"Memory",	0x40026028,	4,	base=16,	modified
+sfr = "TIM5_OR",	"Memory",	0x40000c50,	4,	base=16,	modified
+sfr = "TIM6_PSC",	"Memory",	0x40001028,	4,	base=16,	modified
+sfr = "TIM7_CR2",	"Memory",	0x40001404,	4,	base=16,	modified
+sfr = "I2C2_CR2",	"Memory",	0x40005804,	4,	base=16,	modified
+sfr = "OTG_FS_DOEPCTL5",	"Memory",	0x50000ba0,	4,	base=16,	modified
+
+
+[SfrGroupInfo]
+group = "Custom", "SYSTICKRVR", "SYSTICKCALVR", "CLRENA2", "GPIOA_AFRH", "GPIOB_MODER"
+group = "Custom", "GPIOB_OTYPER", "GPIOB_PUPDR"
+group = "Custom", "GPIOB_LCKR", "GPIOD_PUPDR", "GPIOD_AFRH", "GPIOE_ODR", "DMA1_S1CR"
+group = "Custom", "TIM5_OR", "TIM6_PSC", "TIM7_CR2", "I2C2_CR2", "OTG_FS_DOEPCTL5"

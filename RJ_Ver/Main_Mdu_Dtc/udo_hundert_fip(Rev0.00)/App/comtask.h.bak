@@ -1,0 +1,66 @@
+/*=====================(C) COPYRIGHT 2008 Insem Inc.=========================
+program 		: HDPVR FRONT PANEL 
+processor		: STM32F101xx
+compiler		: IAR 4.41A Compiler 
+program BY 	: YN.Kim
+date 			: 2008.	  .
+copy right 	: Insem Inc.
+===========================================================================*/
+#ifndef __BUZZER_H__
+#define __BUZZER_H__ 
+
+void bz_control_proc(void);
+
+void Buzzer_initial(void);
+void Bzduty_Set(u16 duty);
+void Sound(u16 fr,u32 ms);
+void Buzzer_On(void);
+void Buzzer_Off(void);
+void Buzzer_Open(void);
+void Buzzer_Close(void);
+void Bzdutybuf_Set(u16 duty);
+void Buzzer_Onx(u16 frq);
+void BZTask(void);
+void MailBox_Buzcp(u8 cmd, u8 cnt);
+
+//========================================================================
+//========================================================================
+#define BUZZER_DEFAULT_FR 				2000
+#define BUZZER_DEFAULT_DUTY 			50
+
+#define BUZZER 							GPIOB
+#define BUZZER_PIN 						GPIO_Pin_6
+#define RCC_APB2Periph_GPIO_BUZZER 	RCC_APB2Periph_GPIOB
+#define BZTR_ON()   						BUZZER->BSRR=BUZZER_PIN
+#define BZTR_OFF()  						BUZZER->BRR=BUZZER_PIN
+
+#define BUZZER_BASE_FR  				7200000
+#define BUZZER_PERIOD(x) 				(((u32)BUZZER_BASE_FR/(u32)x)-1)
+
+//========================================================================
+//========================================================================
+
+#ifdef __BUZZER_C__
+#define bzEX
+u16 Bz_Duty =BUZZER_DEFAULT_DUTY;
+
+#else
+#define bzEX extern
+bzEX u16 Bz_Duty;
+
+#endif
+
+typedef struct {
+	u8 cmd;
+	u8 cnt;
+}__Bzcmd;
+#define Cmd_size 4
+bzEX uchar BzBuffer[Cmd_size*sizeof(__Bzcmd)];
+
+bzEX __Bzcmd putbzc;
+
+
+//========================================================================
+//========================================================================
+#endif
+

@@ -1,0 +1,154 @@
+[TraceHelper]
+Enabled=0
+ShowSource=1
+[DebugChecksum]
+Checksum=-939374429
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[InstructionProfiling]
+Enabled=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[Profiling]
+Enabled=0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Breakpoints]
+Count=0
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[JLinkDriver]
+WatchCond=_ 0
+Watch0=_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0
+Watch1=_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0
+CStepIntDis=_ 0
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=36
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[watch_formats]
+Fmt0={W}42:spdata	5	0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[PowerLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=0
+Title_0=I0
+Symbol_0=0 4 1
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[EventLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
+[Aliases]
+A0=_ "C:\Documents and Settings\jkwon\바탕 화면\resource_semaphores\Project\main.c" ""
+A1=_ "C:\Users\Kimkyungnam\Desktop\racos\firmware\2017 FW\sokcho\sokcho_main\속초롯데_MDU\App\main.c" ""
+A2=_ "C:\Users\Kimkyungnam\Desktop\racos\firmware\sunyoudo_famaily_hotel\sunyoudo_hotel_MDU\App\main.c" ""
+A3=_ "C:\Users\Leejungmin\Desktop\racos system porject\project_room\RCS\seoul\IHS_20190522\treehotel_FIP,MDU_20191125\treehotel_mdu(Rev0.00)\App\main.c" ""
+A4=_ "C:\Users\Leejungmin\Desktop\racos system porject\project_room\seoul\Astoria_hotel\Astroia_hotel_main\Astroia_hotel_mdu(Ver0.00)\App\main.c" ""
+A5=_ "C:\Users\k9858\Desktop\Project\racos system porject_20200325\project_room\RCS\sample\Main_fip,mdu_통신확인\busan_connect_hotel_mdu(Rev0.02)\App\main.c" ""
+A6=_ "C:\Users\swjang\Desktop\main_dtc_mdu_20200805\bookchang_hotel_mdu(Rev1.0)\App\main.c" ""
+A7=_ "D:\Kimkyungnam_room_system\jeju\1..jeju_yongsan\jeju_yongsan_MDU\App\main.c" ""
+A8=_ "D:\My_works\__st_tftlcd_4357inch\ST43Inch_F2Bady_Vcxxx\App\iexec.c" ""
+A9=_ "D:\My_works\__st_tftlcd_4357inch\stm32f2xxP\App\main.c" ""
+A10=_ "D:\project\LG전자\STM32F207_embos_정품version\task_Obj\Embos\Src\OS_Error.c" ""
+Count=11
+SuppressDialog=1
